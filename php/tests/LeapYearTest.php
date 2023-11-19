@@ -54,4 +54,12 @@ class LeapYearTest extends TestCase
 
         self::assertEquals(false, $result);
     }
+
+    /** @test */
+    public function given_1900_then_return_it_is_not_leap(): void
+    {
+        $result = LeapYear::isLeap(1900);
+
+        self::assertEquals(false, $result);
+    }
 }
