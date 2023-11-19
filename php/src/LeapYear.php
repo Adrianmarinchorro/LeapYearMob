@@ -2,9 +2,9 @@
 
 namespace Kata;
 
-class TheClass
+class LeapYear
 {
-    public function theMethod(): bool
+    public static function isLeap(int $year): bool
     {
         return true;
     }
